@@ -34,6 +34,7 @@ Com o VENV ativado, instale as bibliotecas necessárias:
 
 ```bash
 pip install pytest requests
+```
 
 ### 3. Estrutura do Projeto
 O projeto segue a estrutura padrão de testes Python e a organização por aluno/método:
@@ -55,8 +56,10 @@ Para executar os testes use o comando:
 
 ```bash
 pytest
+```
 
 Use as flags -v (verbose) e -s (capturar output) para verificar o Status Code de cada requisição e o resultado detalhado dos testes:
 
 ```bash
 pytest -vs
+```
