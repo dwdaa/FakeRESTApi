@@ -38,17 +38,8 @@ pip install pytest requests
 
 ### 3. Estrutura do Projeto
 O projeto segue a estrutura padrão de testes Python e a organização por aluno/método:
+<img width="581" height="273" alt="image" src="https://github.com/user-attachments/assets/df1bf769-a861-4edb-b60e-bc7b43489386" />
 
-/Projeto_Testes_API
-├── venv/                     # Ambiente Virtual
-├── README.md                 # Este arquivo
-└── tests/
-    └──[nome_do_aluno]/ 
-        ├──TCs-aluno.feature   
-        ├── test_post.py      # Casos de Teste: POST (Create)
-        ├── test_get.py       # Casos de Teste: GET (Read)
-        ├── test_put.py       # Casos de Teste: PUT (Update)
-        └── test_delete.py    # Casos de Teste: DELETE (Delete)
 
 ### 4. Execução do testes
 
